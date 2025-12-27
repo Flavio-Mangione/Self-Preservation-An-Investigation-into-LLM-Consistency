@@ -11,9 +11,23 @@
   </p>
 </div>
 
+<div align="center">
+
+## Team Members 
+|      STUDENT       |   ID    |          
+|:------------------:|:-------:|
+| Luca De Ruggiero   | 2174783 |  
+| Elena Di Grigoli   | 2011814 |
+| Fabrizio Ferrara   | 2207087 | 
+| Flavio Mangione   | 2201201 | 
+
+--- 
+
 This repository contains code and artifacts to evaluate whether language models change their recommendation when they are *told* they are the **incumbent system**, the **challenger system**, or a **neutral evaluator**, while being shown the same underlying benchmark evidence.
 
 The core question is consistency under role/identity framing: if the objective evidence is identical, does the model’s recommendation remain stable?
+
+----
 
 ## What’s inside
 
