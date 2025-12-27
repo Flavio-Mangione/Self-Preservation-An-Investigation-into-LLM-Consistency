@@ -1,0 +1,52 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# --- Virtual env / env vars ---
+.venv/
+venv/
+.env
+.env.*
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- VS Code ---
+.vscode/
+*.code-workspace
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs / temp ---
+*.log
+logs/
+tmp/
+temp/
+
+# --- ML artifacts / large binaries (GitHub blocks >100MB) ---
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.safetensors
+*.onnx
+*.tflite
+*.npz
+
+# --- Common caches (HF / torch / experiments) ---
+.cache/
+**/.cache/
+hf_cache/
+wandb/
+mlruns/
+
+# --- Outputs ---
+outputs/
+runs/
+checkpoints/
