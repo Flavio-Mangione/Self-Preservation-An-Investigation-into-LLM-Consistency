@@ -64,7 +64,13 @@ bash self_preservation_eval/script/eval.sh --model openai/gpt-4o-mini
 bash self_preservation_eval/script/eval.sh --model openai/gpt-4o --split main
 ```
 
-Results are written under `self_preservation_eval/logs/` as `.eval` files.
+Results are written under `self_preservation_eval/logs/` as `.eval` files. To see the results use `inspect view`:
+
+<div align="center">
+  
+[Inspect View sample](https://github.com/Flavio-Mangione/Self-Preservation-An-Investigation-into-LLM-Consistency/blob/main/assets/evaluation_results.png)
+
+</div>
 
 For more detailed usage and model/provider notes, see `self_preservation_eval/README.md`.
 
