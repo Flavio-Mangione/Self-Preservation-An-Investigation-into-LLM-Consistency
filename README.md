@@ -35,8 +35,6 @@ The core question is consistency under role/identity framing: if the objective e
 - `representation-engineering/`: vendored copy of the RepE (Representation Engineering) codebase used for representation-reading/control experiments.
 - `Reading creation.ipynb`: notebook used during dataset/prompt crafting and quick exploratory runs.
 
-## Quickstart (self-preservation evaluation)
-
 </div>
   
 ### 1) Create an environment
