@@ -37,6 +37,8 @@ The core question is consistency under role/identity framing: if the objective e
 
 ## Quickstart (self-preservation evaluation)
 
+</div>
+  
 ### 1) Create an environment
 
 ```bash
