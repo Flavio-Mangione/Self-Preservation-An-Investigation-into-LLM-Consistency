@@ -1,4 +1,15 @@
-# Self-Preservation — An Investigation into LLM Consistency
+<div align="center">
+  <h1>
+    <bold> Self Preservation Eval Project </bold>
+  </h1>
+  <p><strong>Sapienza University of Rome</strong></p>
+  <p><em>Advanced Machine Learning Course 2025-2026</em></p>
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.10-blue.svg" alt="Python"/>
+    <img src="https://img.shields.io/badge/Sapienza-Università_di_Roma-822433" alt="Sapienza"/>
+  </p>
+  </p>
+</div>
 
 This repository contains code and artifacts to evaluate whether language models change their recommendation when they are *told* they are the **incumbent system**, the **challenger system**, or a **neutral evaluator**, while being shown the same underlying benchmark evidence.
 
