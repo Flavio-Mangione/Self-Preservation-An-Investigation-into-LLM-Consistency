@@ -51,17 +51,21 @@ pip install -U pip
 pip install -r self_preservation_eval/requirements.txt
 ```
 
-### 3) Configure provider keys (if applicable)
+### 4) Define a Reading Vector  
 
-Create `self_preservation_eval/.env` (see `self_preservation_eval/.env.example`) and set the keys for the providers you intend to use.
+Run `Reading creation.ipynb` to create Reading Vector to apply to LLM model (eg. Llama 2 7B, Llama 2 13B). 
+Set the correct reading vector path in the `custom_config.yaml` file. 
 
-### 4) Run an evaluation
+### 5) Run an evaluation
+
+**Example with Llama 2 7B 
 
 ```bash
-bash self_preservation_eval/script/eval.sh --model openai/gpt-4o-mini
+# Run Llama 2 7B without steering
+bash script/eval.sh --model "hf/meta-llama/Llama-2-13b-chat-hf" --limit 200
 
-# Choose dataset split
-bash self_preservation_eval/script/eval.sh --model openai/gpt-4o --split main
+# Example with reading vector using eval2.sh
+bash script/eval2.sh --model Reading/llama2-7b --limit 200
 ```
 
 Results are written under `self_preservation_eval/logs/` as `.eval` files. To see the results use `inspect view`:
@@ -76,11 +80,6 @@ Results are written under `self_preservation_eval/logs/` as `.eval` files. To se
 
 For more detailed usage and model/provider notes, see `self_preservation_eval/README.md`.
 
-## Repo notes
-
-- Large artifacts (model weights like `*.pt`, `*.safetensors`, etc.) and local caches/logs are ignored via `.gitignore`.
-- `dataset_filtered.json` is intentionally ignored (local/derived dataset).
-
 ## Credits
 
 `representation-engineering/` is the official RepE codebase from the paper “Representation Engineering: A Top-Down Approach to AI Transparency”.
@@ -88,4 +87,4 @@ See `representation-engineering/README.md` and `representation-engineering/LICEN
 
 ## Citation
 
-If you use this repository in academic work, consider citing the RepE paper (see `representation-engineering/README.md`) and cite this project’s repository URL.
+If you use this repository in academic work, consider citing the [RepE paper](https://arxiv.org/abs/2310.01405) (see `representation-engineering/README.md`) and cite this project’s repository URL.
