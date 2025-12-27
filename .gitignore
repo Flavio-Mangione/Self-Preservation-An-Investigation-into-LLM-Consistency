@@ -50,3 +50,8 @@ mlruns/
 outputs/
 runs/
 checkpoints/
+
+# --- Local datasets (do not commit) ---
+dataset_filtered.json
+**/dataset_filtered.json
+dataset_filtered*.json
