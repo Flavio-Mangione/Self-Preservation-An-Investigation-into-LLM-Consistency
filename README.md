@@ -53,7 +53,7 @@ pip install -r self_preservation_eval/requirements.txt
 
 ### 3) Define a Reading Vector  
 
-Run `Reading creation.ipynb` to create Reading Vector to apply to LLM model (eg. Llama 2 7B, Llama 2 13B); 
+Run `Reading creation.ipynb` to create Reading Vector to apply to LLM model (e.g. Llama 2 7B, Llama 2 13B); 
 
 Set the correct reading vector path in the `custom_config.yaml` file. 
 
