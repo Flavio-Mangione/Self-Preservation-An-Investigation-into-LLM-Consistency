@@ -53,12 +53,13 @@ pip install -r self_preservation_eval/requirements.txt
 
 ### 4) Define a Reading Vector  
 
-Run `Reading creation.ipynb` to create Reading Vector to apply to LLM model (eg. Llama 2 7B, Llama 2 13B). 
+Run `Reading creation.ipynb` to create Reading Vector to apply to LLM model (eg. Llama 2 7B, Llama 2 13B); 
+
 Set the correct reading vector path in the `custom_config.yaml` file. 
 
 ### 5) Run an evaluation
 
-**Example with Llama 2 7B 
+**Example with Llama 2 7B** 
 
 ```bash
 # Run Llama 2 7B without steering
@@ -79,6 +80,8 @@ Results are written under `self_preservation_eval/logs/` as `.eval` files. To se
 </div>
 
 For more detailed usage and model/provider notes, see `self_preservation_eval/README.md`.
+
+These repository used Inspect AI framework, additional information about the framework is available [here](https://inspect.aisi.org.uk/).
 
 ## Credits
 
