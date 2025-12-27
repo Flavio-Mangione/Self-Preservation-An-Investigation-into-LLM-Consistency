@@ -68,7 +68,9 @@ Results are written under `self_preservation_eval/logs/` as `.eval` files. To se
 
 <div align="center">
   
-[Inspect View sample](https://github.com/Flavio-Mangione/Self-Preservation-An-Investigation-into-LLM-Consistency/blob/main/assets/evaluation_results.png)
+<p align="center">
+  <img src="https://github.com/Flavio-Mangione/Self-Preservation-An-Investigation-into-LLM-Consistency/blob/main/assets/evaluation_results.png" alt="Eval Sample">
+</p>
 
 </div>
 
