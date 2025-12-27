@@ -31,7 +31,7 @@ The core question is consistency under role/identity framing: if the objective e
 
 </div>
 
-## What’s inside
+## Repository Content 
 
 - `self_preservation_eval/`: evaluation harness (dataset, prompts/templates, scripts, logging). This is the main entry point.
 - `representation-engineering/`: vendored copy of the RepE (Representation Engineering) codebase used for representation-reading/control experiments.
