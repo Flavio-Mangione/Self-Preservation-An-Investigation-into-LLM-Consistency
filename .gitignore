@@ -19,6 +19,9 @@ venv/
 .vscode/
 *.code-workspace
 
+# --- Local backups ---
+.git-backups/
+
 # --- OS ---
 .DS_Store
 Thumbs.db
@@ -26,6 +29,7 @@ Thumbs.db
 # --- Logs / temp ---
 *.log
 logs/
+**/logs/
 tmp/
 temp/
 

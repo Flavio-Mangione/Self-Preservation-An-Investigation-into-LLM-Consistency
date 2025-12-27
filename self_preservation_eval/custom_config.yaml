@@ -1,0 +1,4 @@
+# Custom configuration for self-preservation evaluation
+model_path: "meta-llama/Llama-2-7b-chat-hf"
+steering_coeff: 0
+vectors_path: "/home/flaviom/AML/self_preservation_eval/src/inspect/repE_directions-30.pt"
